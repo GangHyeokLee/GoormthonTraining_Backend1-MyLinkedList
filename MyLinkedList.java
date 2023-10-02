@@ -28,6 +28,9 @@ public class MyLinkedList <T> extends LinkedList implements Iterable {
         super.forEach(action);
     }
 
-    Set<Integer> intHSet = new HashSet<>();
 
+    public Object delete(int index){
+        return remove(index);
+
+    }
 }

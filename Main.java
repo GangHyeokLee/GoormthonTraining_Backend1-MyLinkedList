@@ -4,6 +4,24 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
+        MyLinkedList<Integer> test = new MyLinkedList<>();
+        test.add(1);
+        test.add(2);
+        test.add(3);
+
+        System.out.println(test);
+
+        System.out.println(test.get(2));
+
+        System.out.println(test.delete(1));
+
+        test.forEach(System.out::print);
+
+        System.out.println();
+
+        System.out.println("-------------------------------------");
+
         // Queue
 
         MyLinkedList<Integer> queue = new MyLinkedList<>();
