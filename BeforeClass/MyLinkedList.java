@@ -1,4 +1,4 @@
-package GoormProject7_Linked_List;
+package GoormProject7_Linked_List.BeforeClass;
 
 import java.util.*;
 import java.util.function.Consumer;
